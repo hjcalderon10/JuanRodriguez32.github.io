@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Juan Rodríguez</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container" >
+        <a class="navbar-brand js-scroll-trigger" href="#home">Home</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Work References</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Personal References</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+<div class="jumbotron" id="home">
+<div class= "containerJ">
+<div class="count-particles">
+  <span class="js-count-particles">--</span> particles
+</div>
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<!-- scripts -->
+<script src="../particles.js"></script>
+<script src="js/app.js"></script>
+<h1 id="text">Juan Manuel Rodríguez Barragán</h1>
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+
+</div>
+</div>
+
+
+<div class="first" >
+<div class="image">
+<img src="http://photos.wikimapia.org/p/00/00/09/55/90_big.jpg"/>
+</div>
+
+	<div class="intro" id="about" >
+
+	<p>I am an undergraduate student of systems and computing engineering from<br>
+	Universidad de los Andes. I have acquired plenty of knowledge on IT<br> 
+	and market research and I’m eager to develop a career in digital analytics<br>
+	 focused on revenue generation and audience research and supporting <br>
+	 digital marketing areas. I learn quickly and I easily adapt to any environment.<br> Talking in public is one of
+my strongest skills.I am proficient in the English language.</p>
+	</div>
+</div>
+
+<div class="skills">
+<div class="p1">
+<h2>Skills</h2>
+<ul>
+<li>SQL</li>
+<li>Google Analytics</li>
+<li>DoubleClick for Publishers (DFP)</li>
+<li>Adobe Analytics</li>
+<li>Navegg</li>
+<li>JavaScript</li>
+<li>Java</li>
+<li>R</li>
+<li>Python</li>
+<li>ComScore</li>
+<li>ArcGis</li>
+</ul>
+</div>
+</div>
+
+<h2>Carrer</h2>
+<h3>EL Espectador – COMUNICAN S.A., Bogotá, Colombia</h3>
+<h3>Feb’16 – Oct’16</h3>
+<p>Market Intelligence analyst – Create a metrics plan, use Google Analytics on
+elespectador.com. Integrate data coming from an existing CRM, Google Analytics,<br>
+ComScore, Navegg and ArcGis using Python in order to understand the audience
+on a holistic way. Also improve the user experience. Automatize reporting process
+using DFP’s API.</p>
+
+<h2>Formal Education</h2>
+<h3>Universidad de los Andes, Bogotá, Colombia</h3>
+<h3>Jan’ 2013 – present</h3>
+<p>Undergraduate student of Computer Systems Engineering</p>
+
+
+<h2>Additional education and courses</h2>
+<h3>Universidad de los Andes, Bogotá, Colombia</h3>
+<h3>Mar’15</h3>
+<p>Microsoft SQLServer complementary curriculum. </p>
+
+<h2>Hobbies</h2>
+<ul>
+<li>Golf</li>
+<li>Swimming</li>
+<li>Football</li>
+<li>Reading</li>
+<li>Learning</li>
+</ul>
+
+<h2>Professional references</h2>
+
+<h3>Juan David Nuñez Aljure</h3>
+<p>Globant, Bogotá Colombia <br> Marketing <br> 
+Mobile: +57 315 670 1402 <br> E-mail :  juan.nunez@globant.com<p>
+
+
+<h3>Carlos Humberto Vargas Moreno</h3>
+<p>Caracol T.V., Bogotá, Colombia <br> La Red presenter, T.V. Show <br> 
+Mobile: +57 317 510 1205 <br> E-mail: cahuvamo1979@yahoo.com<p>
+
+
+<h2>Personal references</h2>
+<h3>María Andrea Pinzón Lancheros</h3>
+<p>Friend, Bogotá, Colombia <br> Undergraduate student of Business administration, Universidad de los Andes <br> 
+Mobile: +57 310 801 6256 <br>E-mail: ma.pinzon41@uniandes.edu.co<p>
+
+
+<h3>Jaime Orlando Rodríguez Cuervo</h3>
+<p>Uncle, Bogotá, Colombia <br> CEO Promotora la Alborada<br> 
+Mobile: +57 310 226 9857 <br>E-mail: jaimeorodriguezcuervo@hotmail.com<p>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
+

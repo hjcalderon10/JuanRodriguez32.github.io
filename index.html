@@ -13,26 +13,36 @@
 <body>
    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container" >
-        <a class="navbar-brand js-scroll-trigger" href="#home">Home</a>
+        <a class="navbar-brand js-scroll-trigger"  id= "hom" href="#home">Home</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#text">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Career</a>
+              <a class="nav-link js-scroll-trigger" href="#career">Career</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Work References</a>
+              <a class="nav-link js-scroll-trigger" href="#formal">Formal Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Personal References</a>
+              <a class="nav-link js-scroll-trigger" href="#additional">Additional Education</a>
+            </li>
+
+             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#hobbies">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#professional">professional References</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#personal">Personal References</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -53,6 +63,7 @@
 <div id="particles-js"></div>
 
 <!-- scripts -->
+
 <script src="particles/particles.js"></script>
 <script src="js/app.js"></script>
 <h1 id="text">Juan Manuel Rodríguez Barragán</h1>
@@ -83,95 +94,217 @@
 
 
 <div class="first" >
-<div class="image">
+<div class="image" id="about">
 <img src="http://photos.wikimapia.org/p/00/00/09/55/90_big.jpg"/>
 </div>
 
-	<div class="intro" id="about" >
+	<div class="intro"  >
 
-	<p>I am an undergraduate student of systems and computing engineering from<br>
+	<p id="skills"><br>I am an undergraduate student of systems and computing engineering from<br>
 	Universidad de los Andes. I have acquired plenty of knowledge on IT<br> 
 	and market research and I’m eager to develop a career in digital analytics<br>
 	 focused on revenue generation and audience research and supporting <br>
 	 digital marketing areas. I learn quickly and I easily adapt to any environment.<br> Talking in public is one of
-my strongest skills.I am proficient in the English language.</p>
+my strongest skills.I am proficient in the English language.<br></p>
 	</div>
 </div>
 
-<div class="skills">
-<div class="p1">
-<h2>Skills</h2>
-<ul>
-<li>SQL</li>
-<li>Google Analytics</li>
-<li>DoubleClick for Publishers (DFP)</li>
-<li>Adobe Analytics</li>
-<li>Navegg</li>
-<li>JavaScript</li>
-<li>Java</li>
-<li>R</li>
-<li>Python</li>
-<li>ComScore</li>
-<li>ArcGis</li>
+
+<div class="skills" >
+<h2 id="sk">Skills</h2>
+
+<div class="skillbar clearfix " data-percent="20%">
+	<div class="skillbar-title" style="background: #d35400;"><span>SQL</span></div>
+	<div class="skillbar-bar" style="background: #e67e22;"></div>
+	<div class="skill-bar-percent">20%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="25%">
+	<div class="skillbar-title" style="background: #2980b9;"><span>Google A.</span></div>
+	<div class="skillbar-bar" style="background: #3498db;"></div>
+	<div class="skill-bar-percent">25%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="50%">
+	<div class="skillbar-title" style="background: #2c3e50;"><span>DFP</span></div>
+	<div class="skillbar-bar" style="background: #2c3e50;"></div>
+	<div class="skill-bar-percent">50%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="40%">
+	<div class="skillbar-title" style="background: #46465e;"><span>Adobe A.</span></div>
+	<div class="skillbar-bar" style="background: #5a68a5;"></div>
+	<div class="skill-bar-percent">40%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="75%">
+	<div class="skillbar-title" style="background: #333333;"><span>Navegg</span></div>
+	<div class="skillbar-bar" style="background: #525252;"></div>
+	<div class="skill-bar-percent">75%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="100%">
+	<div class="skillbar-title" style="background: #27ae60;"><span>JavaScript</span></div>
+	<div class="skillbar-bar" style="background: #2ecc71;"></div>
+	<div class="skill-bar-percent">100%</div>
+</div> <!-- End Skill Bar -->
+
+<div id= "career" class="skillbar clearfix " data-percent="70%">
+	<div class="skillbar-title" style="background: #124e8c;"><span>Java</span></div>
+	<div class="skillbar-bar" style="background: #4288d0;"></div>
+	<div class="skill-bar-percent">70%</div>
+</div> <!-- End Skill Bar -->
+<div class="skillbar clearfix " data-percent="40%">
+	<div class="skillbar-title" style="background: #46465e;"><span>R</span></div>
+	<div class="skillbar-bar" style="background: #5a68a5;"></div>
+	<div class="skill-bar-percent">40%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="75%">
+	<div class="skillbar-title" style="background: #333333;"><span>ComScore</span></div>
+	<div class="skillbar-bar" style="background: #525252;"></div>
+	<div class="skill-bar-percent">75%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="100%">
+	<div class="skillbar-title" style="background: #27ae60;"><span>ArcGis</span></div>
+	<div class="skillbar-bar" style="background: #2ecc71;"></div>
+	<div class="skill-bar-percent">100%</div>
+</div> <!-- End Skill Bar -->
+
+<div id= "career" class="skillbar clearfix " data-percent="70%">
+	<div class="skillbar-title" style="background: #124e8c;"><span>Python</span></div>
+	<div class="skillbar-bar" style="background: #4288d0;"></div>
+	<div class="skill-bar-percent">70%</div>
+</div> <!-- End Skill Bar -->
 </ul>
-</div>
+<br>
+
 </div>
 
-<h2>Carrer</h2>
+<div class="general" >
+<h2>Career</h2>
+<div class="career" >
+<br>
+<div class="image2" >
+<img src="http://www.elespectador.com/profiles/ee/themes/custom/elespectador/apple-touch-icon-precomposed.png"/>
+</div>
+
 <h3>EL Espectador – COMUNICAN S.A., Bogotá, Colombia</h3>
 <h3>Feb’16 – Oct’16</h3>
-<p>Market Intelligence analyst – Create a metrics plan, use Google Analytics on
+<p id="formal"> <br>Market Intelligence analyst – Create a metrics plan, use Google Analytics on
 elespectador.com. Integrate data coming from an existing CRM, Google Analytics,<br>
 ComScore, Navegg and ArcGis using Python in order to understand the audience
 on a holistic way. Also improve the user experience. Automatize reporting process
 using DFP’s API.</p>
+<br>
+<br>
+</div>
 
-<h2>Formal Education</h2>
-<h3>Universidad de los Andes, Bogotá, Colombia</h3>
-<h3>Jan’ 2013 – present</h3>
-<p>Undergraduate student of Computer Systems Engineering</p>
+<h2 >Formal Education</h2>
+<div class="formal" >
+<div class="image2" >
+<img src="http://photos.wikimapia.org/p/00/00/09/55/90_big.jpg"/>
+</div>
+<h3><br><br><br>Universidad de los Andes, Bogotá, Colombia</h3>
+<h3 id="additional">Jan’ 2013 – present</h3>
+<p >Undergraduate student of Computer Systems Engineering<br><br><br></p>
+</div>
+<br>
+<br>
+<h2 id="hobbies">Additional education and courses</h2>
+<div class="additional" >
+<div class="image2" >
+<img src="https://cdn4.iconfinder.com/data/icons/database/PNG/256/Database_3.png"/>
+</div>
+
+<h3 ><br><br><br>Universidad de los Andes, Bogotá, Colombia</h3>
+<h3 >Mar’15</h3>
+<p><br><br><br>Microsoft SQLServer complementary curriculum. </p>
+</div>
 
 
-<h2>Additional education and courses</h2>
-<h3>Universidad de los Andes, Bogotá, Colombia</h3>
-<h3>Mar’15</h3>
-<p>Microsoft SQLServer complementary curriculum. </p>
 
-<h2>Hobbies</h2>
-<ul>
+<h2  >Hobbies</h2>
+<div class="hobbies" >
+<div class="image2" >
+<img src="https://d30y9cdsu7xlg0.cloudfront.net/png/10148-200.png"/>
+</div>
+<ul id="professional">
+<br><br><br>
 <li>Golf</li>
 <li>Swimming</li>
-<li>Football</li>
+<li >Football</li>
 <li>Reading</li>
-<li>Learning</li>
+<li >Learning<br><br><br></li>
 </ul>
+</div>
 
-<h2>Professional references</h2>
+
+<h2 >Professional references</h2>
+<div class="professional" >
+
 
 <h3>Juan David Nuñez Aljure</h3>
 <p>Globant, Bogotá Colombia <br> Marketing <br> 
-Mobile: +57 315 670 1402 <br> E-mail :  juan.nunez@globant.com<p>
+Mobile: +57 315 670 1402 <br> E-mail :  juan.nunez@globant.com</p>
 
 
-<h3>Carlos Humberto Vargas Moreno</h3>
+<h3 id="personal">Carlos Humberto Vargas Moreno</h3>
 <p>Caracol T.V., Bogotá, Colombia <br> La Red presenter, T.V. Show <br> 
-Mobile: +57 317 510 1205 <br> E-mail: cahuvamo1979@yahoo.com<p>
+Mobile: +57 317 510 1205 <br> E-mail: cahuvamo1979@yahoo.com</p>
+</div>
 
+<h2 >Personal references</h2>
+<div class="personal" >
 
-<h2>Personal references</h2>
 <h3>María Andrea Pinzón Lancheros</h3>
 <p>Friend, Bogotá, Colombia <br> Undergraduate student of Business administration, Universidad de los Andes <br> 
-Mobile: +57 310 801 6256 <br>E-mail: ma.pinzon41@uniandes.edu.co<p>
+Mobile: +57 310 801 6256 <br>E-mail: ma.pinzon41@uniandes.edu.co</p>
+
 
 
 <h3>Jaime Orlando Rodríguez Cuervo</h3>
 <p>Uncle, Bogotá, Colombia <br> CEO Promotora la Alborada<br> 
-Mobile: +57 310 226 9857 <br>E-mail: jaimeorodriguezcuervo@hotmail.com<p>
+Mobile: +57 310 226 9857 <br>E-mail: jaimeorodriguezcuervo@hotmail.com</p>
+</div>
+</div>
 
+
+<div class="formulario" >
+
+<form id="contact" action="" method="post">
+    <h3>Quick Contact</h3>
+    <h4>Contact us today, and get reply with in 24 hours!</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+ 
+
+</div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
 </body>
 </html>
 

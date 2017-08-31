@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<!-- recordar que existen mas meta tag, como autor, descripcion. y tal vez los que usa google -->
 	<title>Juan Rodríguez</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link href="style.css" rel="stylesheet" type="text/css">
@@ -52,7 +53,7 @@
       </div>
     </nav>
 
-
+<!-- El -20% del margin-left no permite que se vea bien al reajustar el tamaño de la pantalla-->
 <div class="jumbotron" id="home">
 <div class= "containerJ">
 <div class="count-particles">
@@ -64,6 +65,8 @@
 
 <!-- scripts -->
 
+<!-- Los scripts se implementan en el html cerca del tag de cierre del body-->
+	
 <script src="particles/particles.js"></script>
 <script src="js/app.js"></script>
 <h1 id="text">Juan Manuel Rodríguez Barragán</h1>
@@ -92,12 +95,14 @@
 </div>
 </div>
 
+	<!-- Podria considerar hacer un border de 1px solid que permita ver una diferencia entre los modulos (tal vez se vea mejor) -->
 
 <div class="first" >
 <div class="image" id="about">
+	<!-- implementar el src de una imagen con http implica quitarle la seguridad https del sitio -->
 <img src="http://photos.wikimapia.org/p/00/00/09/55/90_big.jpg"/>
 </div>
-
+<!-- Recordar manejar bien la identación-->
 	<div class="intro"  >
 
 	<p id="skills"><br>I am an undergraduate student of systems and computing engineering from<br>
@@ -182,6 +187,9 @@ my strongest skills.I am proficient in the English language.<br></p>
 
 </div>
 
+	<!-- Podría usar algun tipo de grid, ya sea el de CSS o el de bootstrap, para manejar los divs
+	y que no se solapen entre ellos al cambiar el tamaño de la pantalla/hacerlo responsive-->
+	
 <div class="general" >
 <h2>Career</h2>
 <div class="career" >
@@ -206,6 +214,8 @@ using DFP’s API.</p>
 <div class="image2" >
 <img src="http://photos.wikimapia.org/p/00/00/09/55/90_big.jpg"/>
 </div>
+	<!-- Es posible conseguir el mismo efecto y con mayores garantías al usar padding-top o margin-top-->
+	
 <h3><br><br><br>Universidad de los Andes, Bogotá, Colombia</h3>
 <h3 id="additional">Jan’ 2013 – present</h3>
 <p >Undergraduate student of Computer Systems Engineering<br><br><br></p>
@@ -241,6 +251,8 @@ using DFP’s API.</p>
 </div>
 
 
+	<!-- Recordar que aumentar espacios entre elementos del html no afecta la visualización cuando está corriendo la página -->
+	
 <h2 >Professional references</h2>
 <div class="professional" >
 

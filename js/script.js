@@ -1,3 +1,6 @@
+//Recordar poner use strict para un archivo js.
+"use strict";
+
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
